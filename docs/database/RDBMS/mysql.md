@@ -5,6 +5,7 @@
 * 8.0
     * mysql cli
         * [dev.mysql.com/doc/refman/8.0/en/mysql.html](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
+    * [11.2 Schema Object Names](https://dev.mysql.com/doc/refman/8.0/en/identifiers.html)
 * [bugs.mysql.com/bug.php?id=11472](https://bugs.mysql.com/bug.php?id=11472)
     * Triggers not executed following foreign key updates/deletes
 * [MySQL version 5.7/4.6.7 mysqlbinlog — Utility for Processing Binary Log Files](https://dev.mysql.com/doc/refman/5.7/en/mysqlbinlog.html)
