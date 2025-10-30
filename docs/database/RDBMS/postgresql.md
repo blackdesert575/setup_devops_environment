@@ -6,6 +6,9 @@
 * TimescaleDB:
     * A time-series database for high-performance real-time analytics packaged as a Postgres extension
     * [github.com/timescale/timescaledb](https://github.com/timescale/timescaledb)
+* repmgr
+    * repmgr is an open-source tool suite for managing replication and failover in a cluster of PostgreSQL servers.
+    * [www.repmgr.org](https://www.repmgr.org/)
 * High Availability
     * patroni
         * A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes
