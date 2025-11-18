@@ -4,6 +4,9 @@
 
 ## Guides/Tips/...etc
 
+* tools
+    * nsenter - run program in different namespaces
+        * [man7/nsenter ](https://www.man7.org/linux/man-pages/man1/nsenter.1.html)
 * containerd
     * [containerd.io](https://containerd.io/)
 * ctop
