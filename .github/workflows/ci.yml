@@ -1,11 +1,12 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - 'v*.*.*'
+  workflow_dispatch:       # 手動執行
+  # push:
+  #   branches:
+  #     - main
+  #   tags:
+  #     - 'v*.*.*'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

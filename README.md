@@ -32,6 +32,10 @@ mkdocs -h
 #exit venv
 deactivate
 
+#uv tips
+#output requirements.txt
+uv export -o requirements.txt
+
 #manually execute
 docker build . -t docker.io/focal1119/setup_devops_environment:prod
 docker build . -t docker.io/focal1119/setup_devops_environment:test -f Dockerfile.ci
