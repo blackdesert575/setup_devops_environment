@@ -1,5 +1,5 @@
 site_name: setup-devops-environment
-repo_url: https://github.com/blackdesert575/setup-devops-environment
+repo_url: https://github.com/blackdesert575/setup_devops_environment
 theme:
   name: material
   palette: 
