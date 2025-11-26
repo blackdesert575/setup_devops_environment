@@ -1,9 +1,9 @@
 services:
-  setup_devops_environment:
-    hostname: setup_devops_environment
-    container_name: setup_devops_environment
-    # image: focal1119/setup_devops_environment:2025-07-04-12-06
-    image: focal1119/setup_devops_environment:latest
+  setup-devops-environment:
+    hostname: setup-devops-environment
+    container_name: setup-devops-environment
+    # image: focal1119/setup-devops-environment:2025-07-04-12-06
+    image: focal1119/setup-devops-environment:latest
     restart: always
     # entrypoint: tail -f /dev/null
     ports:
@@ -17,5 +17,5 @@ services:
     volumes:
       - /run/user/1000/docker.sock:/var/run/docker.sock
       - ~/.docker/config.json:/config.json
-    # command: --schedule "0 0 * * * *" --cleanup setup_devops_environment
-    command: --interval 3600 --cleanup setup_devops_environment --debug    
+    # command: --schedule "0 0 * * * *" --cleanup setup-devops-environment
+    command: --interval 3600 --cleanup setup-devops-environment --debug    

@@ -22,7 +22,7 @@ Just pick them up for your requriement!!!
     * AL2023
         * [docs.aws.amazon.com/linux/al2023/ug/cloud-init.html](https://docs.aws.amazon.com/linux/al2023/ug/cloud-init.html)
 * packer
-    * [setup_devops_environment.ootori.dev/Provisioning/automation/#infrainfrastructure-as-code/packer](https://setup_devops_environment.ootori.dev/Provisioning/automation/#infrainfrastructure-as-code)
+    * [setup-devops-environment.ootori.dev/Provisioning/automation/#infrainfrastructure-as-code/packer](https://setup-devops-environment.ootori.dev/Provisioning/automation/#infrainfrastructure-as-code)
 
 ## Performance analysis
 

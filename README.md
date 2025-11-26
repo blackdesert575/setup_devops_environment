@@ -1,4 +1,4 @@
-# setup_devops_environment
+# setup-devops-environment
 
 * This is My experience with so many fields.
 * Feel free to fork My notes. :)
@@ -10,15 +10,15 @@
 * Linux
 * docker, docker-compose, docker hub
 * Python >= 3.11
-* [pyenv + poetry](https://github.com/blackdesert575/setup_devops_environment/blob/main/docs/computer%20languages/programming_languages/python/python.md#usage-with-pyenvpoetry)
+* [pyenv + poetry](https://github.com/blackdesert575/setup-devops-environment/blob/main/docs/computer%20languages/programming_languages/python/python.md#usage-with-pyenvpoetry)
 * [mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 * [watchertower](https://github.com/containrrr/watchtower)
 
 ## Quick start
 
 ```shell
-git clone git@github.com:blackdesert575/setup_devops_environment.git
-cd setup_devops_environment
+git clone git@github.com:blackdesert575/setup-devops-environment.git
+cd setup-devops-environment
 uv sync
 #activate python venv
 source .venv/bin/activate
@@ -37,17 +37,17 @@ deactivate
 uv export -o requirements.txt
 
 #manually execute
-docker build . -t docker.io/focal1119/setup_devops_environment:prod
-docker build . -t docker.io/focal1119/setup_devops_environment:test -f Dockerfile.ci
-docker run -d --name setup_devops_environment -p 8000:80 docker.io/focal1119/setup_devops_environment:prod
+docker build . -t docker.io/focal1119/setup-devops-environment:prod
+docker build . -t docker.io/focal1119/setup-devops-environment:test -f Dockerfile.ci
+docker run -d --name setup-devops-environment -p 8000:80 docker.io/focal1119/setup-devops-environment:prod
 
 #github actions
 #CI
 docker login
-docker build . -t docker.io/focal1119/setup_devops_environment:latest -f Dockerfile.ci
+docker build . -t docker.io/focal1119/setup-devops-environment:latest -f Dockerfile.ci
 docker push
 #CD
-docker run -d --name setup_devops_environment -p 8000:80 docker.io/focal1119/setup_devops_environment:latest
+docker run -d --name setup-devops-environment -p 8000:80 docker.io/focal1119/setup-devops-environment:latest
 
 #docker compose
 docker compose up -d
@@ -60,6 +60,11 @@ docker compose up -d
 [skip ci] update ci.yml
 [skip actions] update docs
 ```
+
+## Deployments
+
+* Deploy with Cloudflare Pages
+    * [developers.cloudflare.com/pages/framework-guides/deploy-an-mkdocs-site](https://developers.cloudflare.com/pages/framework-guides/deploy-an-mkdocs-site/)
 
 ## Important!!!
 

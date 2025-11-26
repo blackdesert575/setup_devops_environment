@@ -18,6 +18,6 @@ jobs:
           username: ${{ secrets.CD_USER }}
           key: ${{ secrets.CD_SSH_KEY }}
           script: |
-            cd ~/repos/setup_devops_environment
+            cd ~/repos/setup-devops-environment
             # 拉取對應的 tag（你也可以手動填，或用 UI 輸入）
             bash scripts/start.sh ${{ github.event.inputs.tag || 'latest' }}

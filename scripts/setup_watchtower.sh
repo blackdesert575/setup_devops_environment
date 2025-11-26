@@ -8,7 +8,7 @@ docker run -d \
   containrrr/watchtower \
   --schedule "0 0 * * * *" \
   --cleanup \
-  setup_devops_environment
+  setup-devops-environment
 
 # systemctl --user enable watchtower
 # systemctl --user start watchtower  

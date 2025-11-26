@@ -55,8 +55,8 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
           tags: |
-            focal1119/setup_devops_environment:latest
-            focal1119/setup_devops_environment:${{ env.BUILD_TIMESTAMP }}
+            focal1119/setup-devops-environment:latest
+            focal1119/setup-devops-environment:${{ env.BUILD_TIMESTAMP }}
 
       - name: Save build cache
         if: success()
