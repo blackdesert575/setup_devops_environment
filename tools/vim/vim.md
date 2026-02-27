@@ -2,6 +2,8 @@
 
 ## Tools/Guides/Tips
 
+* Vundle: plugins manager
+
 * [What's a quick way to comment/uncomment lines in Vim?](https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim)
 * [Vim Cheat Sheet](https://vim.rtorr.com/)
 
