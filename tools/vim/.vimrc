@@ -15,6 +15,8 @@ Plug 'ap/vim-css-color'			" highlight with the color of color code in css file
 Plug 'morhetz/gruvbox'
 
 " Code snippet Generator
+" tips: https://www.cnblogs.com/UnGeek/p/3318089.html
+" look at SnipMate part at the above blogs
 Plug 'marcweber/vim-addon-mw-utils' " dependencies for vim-snipmate
 Plug 'garbas/vim-snipmate'      " SnipMate aims to provide support for textual snippets, similar to TextMate or other Vim plugins like UltiSnips.
 Plug 'honza/vim-snippets'       " This repository contains snippets files for various programming languages.
@@ -23,7 +25,8 @@ call plug#end()
 
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_smart_case = 1
-inoremap <expr><TAB> pumvisible()?"\<C-n>" : "\<TAB>"
+" comment TAB mapping to prvent snippet plugins not working
+"inoremap <expr><TAB> pumvisible()?"\<C-n>" : "\<TAB>"
 
 " Show Hidden files
 let NERDTreeShowHidden=1
@@ -51,6 +54,10 @@ map <F5> :NERDTreeToggle<CR>
 "- autocomplete
 "- file browsing
 "- snippets
+filetype on
+filetype plugin on
+"nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
+
 "- build integration
 "- questions
 
