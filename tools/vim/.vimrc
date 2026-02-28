@@ -5,13 +5,18 @@ Plug 'Shougo/neocomplcache'
 Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'ntpeters/vim-better-whitespace'	" mark the whitespace at the end of any line
+Plug 'tpope/vim-fugitive'               " Fugitive is the premier Vim plugin for Git.
 
 " Code high light
 Plug 'gregsexton/MatchTag'		" highlight the same pair of html tag
 Plug 'ap/vim-css-color'			" highlight with the color of color code in css file
 " Color theme
-"Plug 'morhetz/gruvbox'
-map <F5> :NERDTreeToggle<CR>
+Plug 'morhetz/gruvbox'
+
+" Code snippet Generator
+Plug 'marcweber/vim-addon-mw-utils' " dependencies for vim-snipmate
+Plug 'garbas/vim-snipmate'      " SnipMate aims to provide support for textual snippets, similar to TextMate or other Vim plugins like UltiSnips.
+Plug 'honza/vim-snippets'       " This repository contains snippets files for various programming languages.
 
 call plug#end()
 
@@ -38,12 +43,12 @@ set nowrap			" do not wrap the long string
 set clipboard=unnamed " let vim clipboard and system clipboard sync (if vim compile with clipboard enable)
 set noeb " 關閉嗶嗶聲。
 map <F4> : set nu!<BAR>set nonu?<CR>
-
+map <F5> :NERDTreeToggle<CR>
 "color scheme theme
-"let g:gruvbox_contrast_dark="hard"
-"set t_Co=256
-"set background=dark		" set dark theme of Plugin 'morhetz/gruvbox'
+autocmd vimenter * ++nested colorscheme gruvbox
 
+set background=dark    " Setting dark mode
+"set background=light   " Setting light mode
 
 " autocomplete dropdown list colorscheme
 hi Pmenu ctermfg=0 ctermbg=7
