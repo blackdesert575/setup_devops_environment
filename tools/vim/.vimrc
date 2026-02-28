@@ -1,3 +1,4 @@
+" - plugins to use
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
 call plug#begin('~/.vim/plugged')
 
@@ -36,7 +37,7 @@ set shiftwidth=4
 set ai
 set hlsearch
 set noswapfile
-set path+=**
+set path+=**        " - finding files
 set noswapfile
 set nowrap			" do not wrap the long string
 "set mouse=a			" let mouse control enable
@@ -44,6 +45,15 @@ set clipboard=unnamed " let vim clipboard and system clipboard sync (if vim comp
 set noeb " 關閉嗶嗶聲。
 map <F4> : set nu!<BAR>set nonu?<CR>
 map <F5> :NERDTreeToggle<CR>
+
+"- tag jumping
+
+"- autocomplete
+"- file browsing
+"- snippets
+"- build integration
+"- questions
+
 "color scheme theme
 autocmd vimenter * ++nested colorscheme gruvbox
 
