@@ -49,13 +49,15 @@ set noeb " 關閉嗶嗶聲。
 map <F4> : set nu!<BAR>set nonu?<CR>
 map <F5> :NERDTreeToggle<CR>
 
+" tips from YT videos: https://youtu.be/XA2WjJbmmoM
+" How to Do 90% of What Plugins Do (With Just Vim)
 "- tag jumping
 
 "- autocomplete
 "- file browsing
 "- snippets
-filetype on
-filetype plugin on
+"filetype on
+"filetype plugin on
 "nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
 "- build integration
