@@ -25,6 +25,9 @@
 
 * [learnxinyminutes.com/vimscript](https://learnxinyminutes.com/vimscript/)
 
+* comments tips
+    * [whats-a-quick-way-to-comment-uncomment-lines-in-vim](https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim)
+
 * Color theme
     * [tomasr/molokai](https://github.com/tomasr/molokai)
     * [ku1ik/vim-monokai](https://github.com/ku1ik/vim-monokai)
