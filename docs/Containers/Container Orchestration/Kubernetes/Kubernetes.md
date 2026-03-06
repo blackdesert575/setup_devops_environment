@@ -2,6 +2,7 @@
 
 ## Guides/Tips/Misc...etc
 
+* [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
 * KEDA
     * KEDA is a Kubernetes-based Event Driven Autoscaler.
     * [keda.sh](https://keda.sh/)

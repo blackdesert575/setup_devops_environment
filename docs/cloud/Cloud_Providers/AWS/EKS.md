@@ -2,4 +2,5 @@
 
 ## Tips/Guides
 
-* [3126](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3126)
+* kubernetes-sigs/aws-load-balancer-controller issue  with etch cluster
+    * [kubernetes-sigs/aws-load-balancer-controller/issues/3126](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3126)

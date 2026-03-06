@@ -8,3 +8,5 @@
 * NautilusTrader
     * A high-performance algorithmic trading platform and event-driven backtester
     * [github.com/nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
+* [roadmap.sh/blockchain](https://roadmap.sh/blockchain)
+* Ethereum nodes
