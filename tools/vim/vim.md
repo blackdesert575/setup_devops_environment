@@ -1,5 +1,9 @@
 # vim
 
+## To-do list
+
+* Fix .vim/plugged/vim-snippets/snippets/bash.snippets
+
 ## Tools/Guides/Tips
 
 * Vundle: plugins manager
