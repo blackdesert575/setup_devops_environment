@@ -2,6 +2,14 @@
 
 ## Guides/tips/misc...etc
 
+* [github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3126](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3126)
+  * Pod restarts without clear reason (timeout when doing GET to configmap)
+  * [comments](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3126#issuecomment-1947846915)
+    * why does the LB controller need to contact the etcd server?
+      * Every k8s controller that uses leader election relies on apiserver to elect leader and renew lease. APIServer uses etcd as backing store.
+    * Is there a way to increase the timeout (or add a retry mechanism) to avoid the restarts?
+      * ALB controller uses controller-runtime which support setting the lease duration and retry period.
+      * It's expected to see a restart when leader loses lease.
 * Amazon EKS Anywhere
     * [anywhere.eks.amazonaws.com/docs](https://anywhere.eks.amazonaws.com/docs/)
 * killercoda
