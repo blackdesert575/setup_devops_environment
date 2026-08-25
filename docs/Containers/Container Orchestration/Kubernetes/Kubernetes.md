@@ -2,6 +2,8 @@
 
 ## Guides/Tips/Misc...etc
 
+* [github.com/kubernetes-sigs/prometheus-adapter](https://github.com/kubernetes-sigs/prometheus-adapter)
+
 * [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
 * KEDA
     * KEDA is a Kubernetes-based Event Driven Autoscaler.
